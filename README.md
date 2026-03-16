@@ -1,4 +1,4 @@
-# S-XIASQL V1.3.1 - Burp Suite SQL注入检测插件
+# S-XIASQL V1.4 - Burp Suite SQL注入检测插件
 
 > 致敬原作者：瞎注 (author: 算命瞎子 blog:www.nmd5.com)
 > 
@@ -116,6 +116,10 @@ S-XIASQL 是一款专业的 Burp Suite SQL注入检测插件，能够自动化�
 - **版本检测**：启动时自动检测版本更新
 - **后台检测**：版本检测在后台线程执行，不影响插件加载
 ## 📝 更新日志
+### V1.4
+- ✅ 修复windows-sqlmap弹窗问题
+- ✅ 修复windows-sqlmap结束后无法运行系统命令问题
+
 ### V1.3.1
 - ✅ 修复MAC苹果系统sqlmap启动问题
 - ✅ 添加自定义标红等功能
